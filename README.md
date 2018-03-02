@@ -1,2 +1,2 @@
 # Ik-WC
-woocommerce customizations
+woocommerce shop listing page template and shorcode
