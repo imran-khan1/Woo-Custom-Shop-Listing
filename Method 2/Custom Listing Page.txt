@@ -1,0 +1,9 @@
+user:     imran
+password: 7%x(CSbAvBD7&rLW
+
+
+
+[products ids="169, 128, 177, 128, 171 172, 173, 174, 175, 176, 185, 639, 667, 741, 179, 789, 180, 178, 181, 182, 183"]
+
+
+http://docs.woothemes.com/document/woocommerce-product-search/shortcodes/

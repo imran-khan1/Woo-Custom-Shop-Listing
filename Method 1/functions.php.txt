@@ -1,0 +1,17 @@
+//Body Class for WordPress or WooCommerce
+
+// Add specific CSS class by filter
+add_filter('body_class','my_class_names');
+function my_class_names($c) {
+	// add 'class-name' to the $classes array
+	is_page(109)                  ? $c[] = 'woocommerce-page woocommerce'    	: null;
+	
+	/*is_front_page()       		? $c[] = 'home'       	: null;
+	is_page('Foo')                  ? $c[] = 'foo'    	: null;
+	is_page(48)            	        ? $c[] = 'bar'     	: null;
+	is_page_template('foo.php')	? $c[] = 'foo-template'	: null;
+	is_404()        		? $c[] = 'four04'     	: null; // CSS does not allow a digit as first character
+	*/
+	// return the $classes array
+	return $c;
+}
